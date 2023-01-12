@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+//Creer le rendu passé dans le render() ds la constante root qui est la div qui porte l'id 'root'
 root.render(
   <React.StrictMode>
     <App />
