@@ -25,7 +25,7 @@ Welcome.defaultProps = {
 }
 
 //Pour définir les types de props
-Welcome.protoTypes = { //petit maj car c une proprieté de welcome
+Welcome.propTypes = { //petit maj car c une proprieté de welcome
     //nomProprieté: type
     pouet : PropTypes.string, //maj car ca vient de l'import
     test : PropTypes.string,
