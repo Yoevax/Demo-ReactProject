@@ -6,7 +6,7 @@ const ListeFormateurs = (props) =>{
     const cards = listeFormateurs.map(formateur =>
         <FormateurCard key={formateur.id} lastname ={formateur.lastname} firstname ={formateur.firstname} birthdate ={formateur.birthdate} avatar ={formateur.avatar} gender ={formateur.gender}/>);
     return(
-        <div>
+        <div className="flex">
             {cards}
         </div>
     )
